@@ -4,6 +4,8 @@
   list-style: none;
   margin: 0;
   text-decoration: none;
+  font-weight: 500;
+
 }
 
 .navbar {
@@ -32,11 +34,54 @@
   clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 0 0);
 }
 
-.background-section h1{
+.background-section h1 {
   color: white;
+  margin-left: 30px;
 }
 
-.background-section h3{
+.background-section h3 {
   color: white;
+  margin-left: 30px;
+}
 
+.background-section button {
+  color: white;
+  background-color: rgb(184, 72, 7);
+  font-style: italic;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+
+.content {
+  margin: 50px;
+  text-align: center;
+}
+
+.content-head {
+  letter-spacing: 3px;
+  color: black;
+  margin-bottom: 70px;
+}
+
+.content-body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 20px;
+  color: black;
+}
+
+.content-body p {
+  margin: 0 200px 50px 200px;
+}
+
+.content p h3 {
+  margin-bottom: 30px;
+}
+
+.footer {
+  color: black;
+  margin: 20px;
+  font-weight: bold;
+  text-align: center;
 }
