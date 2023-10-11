@@ -1,6 +1,21 @@
+@font-face {
+  font-family: 'Lemon Milk';
+  src: url(/Fonts/LEMONMILK-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Averta';
+  src: url(/Fonts/AvertaDemoPECuttedDemo-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url(/Fonts/Gotham-Bold.otf);
+}
+
 .navbar-links {
   display: flex;
-  gap: 90px;
+  gap: 70px;
   list-style: none;
   margin: 0;
   text-decoration: none;
@@ -18,9 +33,15 @@
   left: 0;
   right: 0;
   z-index: 2;
-  gap: 300px;
-  background-color: black;
-  padding: 15px;
+  gap: 200px;
+  background-color: #313131;
+  padding: 2px;
+}
+
+.navbar .logo img{
+  height: 72px;
+  margin-top: 20px;
+  margin-right: 500px;
 }
 
 .background-section {
@@ -37,6 +58,7 @@
 .background-section h1 {
   color: white;
   margin-left: 30px;
+  font-family: 'Lemon Milk';
 }
 
 .background-section h3 {
@@ -55,12 +77,14 @@
 .content {
   margin: 50px;
   text-align: center;
+
 }
 
 .content-head {
   letter-spacing: 3px;
   color: black;
   margin-bottom: 70px;
+  font-family: 'Gotham', bold;
 }
 
 .content-body {
@@ -71,13 +95,19 @@
   color: black;
 }
 
-.content-body p {
+.benefit p {
   margin: 0 200px 50px 200px;
+  font-family: 'Averta';
 }
 
-.content p h3 {
+.benefit h3 {
   margin-bottom: 30px;
+  font-family: 'Gotham';
 }
+
+.benefit img{
+  height: 200px;
+} 
 
 .footer {
   color: black;
